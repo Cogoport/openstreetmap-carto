@@ -7,7 +7,7 @@
 #country-names {
   [zoom >= 3][zoom < 5][way_pixels > 1000],
   [zoom >= 5][way_pixels < 360000] {
-    text-name: "[name_en] - [name]";
+    text-name: "[name]";
     text-size: 50;
     text-wrap-width: 35; // 3.5 em
     text-line-spacing: -1.5; // -0.15 em
@@ -51,7 +51,7 @@
 #state-names {
   [zoom >= 5][zoom < 7][way_pixels > 3000],
   [zoom >= 7][way_pixels > 3000][way_pixels < 196000] {
-    text-name: "[name_en] - [name]";
+    text-name: "[name]";
     text-size: 10;
     text-wrap-width: 35; // 3.5 em
     text-line-spacing: -1.5; // -0.15 em
@@ -94,7 +94,7 @@
     shield-file: url('symbols/place/place-capital-6.svg');
     shield-text-dx: 6;
     shield-text-dy: 6;
-    shield-name: '[name_en] - [name]';
+    shield-name: '[name]';
     shield-face-name: @book-fonts;
     shield-fill: @placenames;
     shield-size: 11;
@@ -127,7 +127,7 @@
     }
   }
   [zoom >= 8] {
-    text-name: '[name_en] - [name]';
+    text-name: '[name]';
     text-face-name: @book-fonts;
     text-fill: @placenames;
     text-size: 13;
@@ -159,7 +159,7 @@
       shield-file: url('symbols/place/place-4.svg');
       shield-text-dx: 4;
       shield-text-dy: 4;
-      shield-name: '[name_en] - [name]';
+      shield-name: '[name]';
       shield-face-name: @book-fonts;
       shield-fill: @placenames;
       shield-size: 11;
@@ -194,7 +194,7 @@
       }
     }
     [zoom >= 8][score >= 400000] {
-      text-name: '[name_en] - [name]';
+      text-name: '[name]';
       text-face-name: @book-fonts;
       text-fill: @placenames;
       text-size: 13;
@@ -227,7 +227,7 @@
       shield-file: url('symbols/place/place-4.svg');
       shield-text-dx: 4;
       shield-text-dy: 4;
-      shield-name: "[name_en]";
+      shield-name: "[name]";
       shield-size: 10;
       shield-fill: @placenames;
       shield-face-name: @book-fonts;
@@ -247,7 +247,7 @@
       }
     }
     [zoom >= 8] {
-      text-name: "[name_en]";
+      text-name: "[name]";
       text-size: 10;
       text-fill: @placenames;
       text-face-name: @book-fonts;
