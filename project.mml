@@ -1299,6 +1299,7 @@ Layer:
         (SELECT
             way,
             name,
+            name_en,
             score,
             CASE
               WHEN (place = 'city') THEN 1
@@ -1311,6 +1312,7 @@ Layer:
                 way,
                 place,
                 name,
+                tags['name:en'] as name_en,
                 (
                   (CASE
                     WHEN (tags->'population' ~ '^[0-9]{1,8}$') THEN (tags->'population')::INTEGER
