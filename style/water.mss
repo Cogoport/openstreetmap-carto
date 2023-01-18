@@ -1,4 +1,4 @@
-@import 'dark-matter.mss';
+@import 'dark-matter';
 
 
 // @water-text: #4d80b3;
