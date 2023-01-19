@@ -1,9 +1,5 @@
 
 
-//@water-text: #4d80b3;
-//@glacier: #ddecec;
-//@glacier-line: #9cf;
-
 @waterway-text-repeat-distance: 200;
 
 #water-areas {

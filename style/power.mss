@@ -1,4 +1,3 @@
-@power-line-color: #888;
 
 
 #power-line {
