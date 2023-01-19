@@ -1,6 +1,6 @@
 @water-text: #ffffff;
-@glacier: #9db3c8;
-@glacier-line: #9db3c8;
+@glacier: #ADD8E6;
+@glacier-line: #ADD8E6;
 @breakwater-color: #aaa; /* Also for groyne */
 @dam: #adadad;
 @dam-line: #444444;

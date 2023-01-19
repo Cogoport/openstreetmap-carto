@@ -2,25 +2,25 @@ Map {
   background-color: @land-color;
 }
 
-@water-color: #c8d7d4;
-@land-color: #f3f3f3;
-@water-text: #4d80b3;
+@water-color: #1f1f1f;
+@land-color: #292929;
+@water-text: #D3D3D3;
 
 
 @standard-halo-radius: 1;
 @standard-halo-fill: rgba(255,255,255,0.6);
 
-@water-text: #ffffff;
-@glacier: #9db3c8;
-@glacier-line: #9db3c8;
+@water-text: #D3D3D3;
+@glacier: #ADD8E6;
+@glacier-line: #ADD8E6;
 @breakwater-color: #aaa; /* Also for groyne */
 @dam: #adadad;
 @dam-line: #444444;
 @weir-line: #aaa;
 @lock-gate: #aaa;
 @lock-gate-line: #aaa;
-@water-color: #c8d7d4;
-@land-color: #f3f3f3;
+@water-color: #1f1f1f;
+@land-color: #292929;
 @standard-halo-radius: 1;
 @standard-halo-fill: rgba(255,255,255,0.6);
 @station-color: #7981b0;
@@ -147,7 +147,7 @@ Map {
 
 // amenity points
 
-@marina-text: #576ddf; // also swimming_pool
+@marina-text: #D3D3D3; // also swimming_pool
 @wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
 @shop-icon: #ac39ac;
 @shop-text: #939;
@@ -225,13 +225,13 @@ Map {
 
 // --- Parks, woods, other green things ---
 
-@grass: #cdebb0;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
-@scrub: #c8d7ab;        // Lch(84,24,122)
-@forest: #add19e;       // Lch(80,30,135)
+@grass: #090909;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@scrub: #090909;        // Lch(84,24,122)
+@forest: #090909;       // Lch(80,30,135)
 @forest-text: #46673b;  // Lch(40,30,135)
-@park: #c8facc;         // Lch(94,30,145)
-@allotments: #c9e1bf;   // Lch(87,20,135)
-@orchard: #aedfa3; // also vineyard, plant_nursery
+@park: #090909;         // Lch(94,30,145)
+@allotments: #090909;   // Lch(87,20,135)
+@orchard: #090909; // also vineyard, plant_nursery
 @hedge: @forest;       // Lch(80,30,135)
 
 // --- "Base" landuses ---
@@ -292,3 +292,24 @@ Map {
 @track: @pitch;
 @stadium: @leisure; // also sports_centre
 @golf_course: @campsite;
+@waterway-text-repeat-distance: 200;
+@motorway-casing: #3d3d3d;
+@trunk-casing: #3d3d3d;
+@primary-casing: #3d3d3d;
+@secondary-casing: #3d3d3d;
+@motorway-fill: #3d3d3d;
+@trunk-fill: #3d3d3d;
+@primary-fill: #3d3d3d;
+@secondary-fill: #3d3d3d;
+@motorway-low-zoom: #3d3d3d;
+@trunk-low-zoom: #3d3d3d;
+@primary-low-zoom: #3d3d3d;
+@secondary-low-zoom: #3d3d3d;
+@motorway-low-zoom-casing: #3d3d3d;
+@trunk-low-zoom-casing: #3d3d3d;
+@primary-low-zoom-casing: #3d3d3d;
+@secondary-low-zoom-casing: #3d3d3d;
+@motorway-shield: #3d3d3d;
+@trunk-shield: #3d3d3d;
+@primary-shield: #3d3d3d;
+@secondary-shield: #3d3d3d;

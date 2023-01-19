@@ -1,41 +1,41 @@
 /* For the main linear features, such as roads and railways. */
 
-@tertiary-fill: #ffffff;
-@residential-fill: #ffffff;
+@tertiary-fill: #3d3d3d;
+@residential-fill: #3d3d3d;
 @service-fill: @residential-fill;
-@living-street-fill: #ededed;
-@pedestrian-fill: #dddde8;
-@raceway-fill: #ffc0cb;
-@road-fill: #ddd;
+@living-street-fill: #3d3d3d;
+@pedestrian-fill: #3d3d3d;
+@raceway-fill: #3d3d3d;
+@road-fill: #3d3d3d;
 @footway-fill: salmon;
-@footway-fill-noaccess: #bbbbbb;
+@footway-fill-noaccess: #3d3d3d;
 @steps-fill: @footway-fill;
-@steps-fill-noaccess: #bbbbbb;
+@steps-fill-noaccess: #3d3d3d;
 @cycleway-fill: blue;
-@cycleway-fill-noaccess: #9999ff;
+@cycleway-fill-noaccess: #3d3d3d;
 @bridleway-fill: green;
-@bridleway-fill-noaccess: #aaddaa;
-@track-fill: #996600;
-@track-fill-noaccess: #e2c5bb;
-@platform-fill: #bbbbbb;
-@aeroway-fill: #bbc;
+@bridleway-fill-noaccess: #3d3d3d;
+@track-fill: #3d3d3d;
+@track-fill-noaccess: #3d3d3d;
+@platform-fill: #3d3d3d;
+@aeroway-fill: #3d3d3d;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #eaeaea;
-@access-marking-primary: #f0f0f0;
-@access-marking-secondary: #e4e4e4;
-@access-marking-white-unpaved: #e0e0e0;
-@access-marking-road: #f0f0f0;
-@access-marking-living-street: #d4d4d4;
+@access-marking: #3d3d3d;
+@access-marking-primary: #3d3d3d;
+@access-marking-secondary: #3d3d3d;
+@access-marking-white-unpaved: #3d3d3d;
+@access-marking-road: #3d3d3d;
+@access-marking-living-street: #3d3d3d;
 
 @default-casing: white;
-@tertiary-casing: #8f8f8f;
-@residential-casing: #bbb;
+@tertiary-casing: #3d3d3d;
+@residential-casing: #3d3d3d;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #999;
+@pedestrian-casing: #3d3d3d;
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
@@ -43,12 +43,12 @@
 @bridleway-casing: @default-casing;
 @track-casing: @default-casing;
 
-@tertiary-shield: #3b3b3b;
+@tertiary-shield: #3d3d3d;
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #aaa;
-@service-construction: #aaa;
+@minor-construction: #3d3d3d;
+@service-construction: #3d3d3d;
 
 @destination-marking: #c2e0ff;
 @private-marking: #efa9a9;
