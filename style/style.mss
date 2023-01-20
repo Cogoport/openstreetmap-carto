@@ -2,8 +2,8 @@ Map {
   background-color: @land-color;
 }
 
-@water-color: #1f1f1f;
-@land-color: #292929;
+@water-color: #161e21;
+@land-color: #363636;
 @water-text: #D3D3D3;
 
 
@@ -49,7 +49,7 @@ Map {
 @barrier-icon: #3f3f3f;
 @landform-color: #d08f55;
 @leisure-green: darken(@park, 60%);
-@protected-area: #008000;
+@protected-area: #666;
 @aboriginal: #82643a;
 @religious-icon: #000000;
 
@@ -197,8 +197,8 @@ Map {
 @trunk-casing: #696969;
 @primary-casing: #696969;
 @secondary-casing: #696969;
-@motorway-fill: #696969;
-@trunk-fill: #696969;
+@motorway-fill: #444444;
+@trunk-fill: #444444;
 @primary-fill: #696969;
 @secondary-fill: #696969;
 @motorway-low-zoom: #696969;
@@ -221,21 +221,21 @@ Map {
 /* For the main linear features, such as roads and railways. */
 
 @tertiary-fill: #3d3d3d;
-@residential-fill: #3d3d3d;
+@residential-fill: #444444;
 @service-fill: @residential-fill;
-@living-street-fill: #3d3d3d;
+@living-street-fill: #444444;
 @pedestrian-fill: #3d3d3d;
 @raceway-fill: #3d3d3d;
-@road-fill: #3d3d3d;
+@road-fill: #00ff5b;
 @footway-fill: salmon;
-@footway-fill-noaccess: #3d3d3d;
+@footway-fill-noaccess: #444444;
 @steps-fill: @footway-fill;
 @steps-fill-noaccess: #3d3d3d;
 @cycleway-fill: blue;
 @cycleway-fill-noaccess: #3d3d3d;
 @bridleway-fill: green;
 @bridleway-fill-noaccess: #3d3d3d;
-@track-fill: #3d3d3d;
+@track-fill: #444444;
 @track-fill-noaccess: #3d3d3d;
 @platform-fill: #3d3d3d;
 @aeroway-fill: #3d3d3d;
@@ -558,12 +558,12 @@ Map {
 
 
 
-@breakwater-color: #aaa; /* Also for groyne */
-@dam: #696969;
-@dam-line: #696969;
-@weir-line: #1f1f1f;
-@lock-gate: #1f1f1f;
-@lock-gate-line: #1f1f1f;
+@breakwater-color: #161e21; /* Also for groyne */
+@dam: #161e21;
+@dam-line: #161e21;
+@weir-line: #161e21;
+@lock-gate: #161e21;
+@lock-gate-line: #161e21;
 
 
 // water
