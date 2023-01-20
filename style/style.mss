@@ -8,29 +8,29 @@ Map {
 
 
 @standard-halo-radius: 1;
-@standard-halo-fill: rgba(255,255,255,0.6);
+@standard-halo-fill: rgba(0, 0, 0, 1);
 
 
 
 //  dark matter style
 
-@address-color: #666;
+@address-color: #808080;
 
 
 // admin boundaries
 
-@admin-boundaries: #8d618b; // Lch(47,30,327)
-@admin-boundaries-narrow: #FF0000; // Lch(42,35,327)
-@admin-boundaries-wide: #a37da1; // Lch(57,25,327)
+@admin-boundaries: #808080; // Lch(47,30,327)
+@admin-boundaries-narrow: #808080; // Lch(42,35,327)
+@admin-boundaries-wide: #808080; // Lch(57,25,327)
 
 
 // amenity points
 
 
-@marina-text: #576ddf; // also swimming_pool
+@marina-text: #808080; // also swimming_pool
 @wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
-@shop-icon: #ac39ac;
-@shop-text: #939;
+@shop-icon: #4aa5fa;
+@shop-text: #4aa5fa;
 @transportation-icon: #0092da;
 @transportation-text: #0066ff;
 @accommodation-icon: @transportation-icon;
@@ -74,7 +74,7 @@ Map {
 // building
 
 
-@building-fill: #d9d0c9;  // Lch(84, 5, 68)
+@building-fill: #444444;  // Lch(84, 5, 68)
 @building-line: darken(@building-fill, 15%);  // Lch(70, 9, 66)
 @building-low-zoom: darken(@building-fill, 4%);
 
@@ -89,7 +89,7 @@ Map {
 
 // ferry routes
 
-@ferry-route: #66f;
+@ferry-route: #4aa5fa;
 @ferry-route-text: @ferry-route;
 
 
@@ -117,27 +117,27 @@ Map {
 
 // --- "Base" landuses ---
 
-@built-up-lowzoom: #d0d0d0;
-@built-up-z12: #dddddd;
-@residential: #e0dfdf;      // Lch(89,0,0)
-@residential-line: #b9b9b9; // Lch(75,0,0)
-@retail: #ffd6d1;           // Lch(89,16,30)
-@retail-line: #d99c95;      // Lch(70,25,30)
-@commercial: #f2dad9;       // Lch(89,8.5,25)
-@commercial-line: #d1b2b0;  // Lch(75,12,25)
-@industrial: #ebdbe8;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
-@industrial-line: #c6b3c3;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
-@farmland: #eef0d5;         // Lch(94,14,112)
-@farmland-line: #c7c9ae;    // Lch(80,14,112)
-@farmyard: #f5dcba;         // Lch(89,20,80)
-@farmyard-line: #d1b48c;    // Lch(75,25,80)
+@built-up-lowzoom: #C0C0C0;
+@built-up-z12: #C0C0C0;
+@residential: #696969;      // Lch(89,0,0)
+@residential-line: #696969; // Lch(75,0,0)
+@retail: #696969;           // Lch(89,16,30)
+@retail-line: #696969;      // Lch(70,25,30)
+@commercial: #696969;       // Lch(89,8.5,25)
+@commercial-line: #696969;  // Lch(75,12,25)
+@industrial: #696969;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
+@industrial-line: #696969;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
+@farmland: #696969;         // Lch(94,14,112)
+@farmland-line: #696969;    // Lch(80,14,112)
+@farmyard: #696969;         // Lch(89,20,80)
+@farmyard-line: #696969;    // Lch(75,25,80)
 
 // --- Transport ----
 
-@transportation-area: #e9e7e2;
-@apron: #dadae0;
-@garages: #dfddce;
-@parking: #eeeeee;
+@transportation-area: #696969;
+@apron: #696969;
+@garages: #696969;
+@parking: #696969;
 @parking-outline: saturate(darken(@parking, 40%), 20%);
 @railway: @industrial;
 @railway-line: @industrial-line;
@@ -145,9 +145,9 @@ Map {
 
 // --- Other ----
 
-@bare_ground: #eee5dc;
-@campsite: #def6c0; // also caravan_site, picnic_site
-@cemetery: #aacbaf; // also grave_yard
+@bare_ground: #696969;
+@campsite: #696969; // also caravan_site, picnic_site
+@cemetery: #696969; // also grave_yard
 @construction: #c7c7b4; // also brownfield
 @heath: #d6d99f;
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
@@ -156,12 +156,12 @@ Map {
 @leisure: lighten(@park, 5%);
 @power: darken(@industrial, 5%);
 @power-line: darken(@industrial-line, 5%);
-@sand: #f5e9c6;
-@societal_amenities: #ffffe5;   // Lch(99,13,109)
-@tourism: #660033;
-@quarry: #c5c3c3;
+@sand: #696969;
+@societal_amenities: #696969;   // Lch(99,13,109)
+@tourism: #696969;
+@quarry: #696969;
 @military: #f55;
-@beach: #fff1ba;
+@beach: #696969;
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
 @water_works: @industrial;
@@ -169,7 +169,7 @@ Map {
 
 // --- Sports ---
 
-@pitch: #aae0cb;           // Lch(85,22,168) also track
+@pitch: #696969;           // Lch(85,22,168) also track
 @track: @pitch;
 @stadium: @leisure; // also sports_centre
 @golf_course: @campsite;
@@ -179,37 +179,37 @@ Map {
 
 // placenames
 
-@placenames: #222;
-@placenames-light: #777777;
+@placenames: #696969;
+@placenames-light: #696969;
 @country-labels: darken(@admin-boundaries-narrow, 10%);
 @state-labels: desaturate(@admin-boundaries-narrow, 5%);
 @county-labels: darken(@admin-boundaries-wide, 5%);
 
 
 // power
-@power-line-color: #888;
+@power-line-color: #696969;
 
 
 // road change generated
 
 @waterway-text-repeat-distance: 200;
-@motorway-casing: #3d3d3d;
-@trunk-casing: #3d3d3d;
-@primary-casing: #3d3d3d;
-@secondary-casing: #3d3d3d;
-@motorway-fill: #3d3d3d;
-@trunk-fill: #3d3d3d;
-@primary-fill: #3d3d3d;
-@secondary-fill: #3d3d3d;
-@motorway-low-zoom: #3d3d3d;
-@trunk-low-zoom: #3d3d3d;
-@primary-low-zoom: #3d3d3d;
-@secondary-low-zoom: #3d3d3d;
-@motorway-low-zoom-casing: #3d3d3d;
-@trunk-low-zoom-casing: #3d3d3d;
-@primary-low-zoom-casing: #3d3d3d;
+@motorway-casing: #696969;
+@trunk-casing: #696969;
+@primary-casing: #696969;
+@secondary-casing: #696969;
+@motorway-fill: #696969;
+@trunk-fill: #696969;
+@primary-fill: #696969;
+@secondary-fill: #696969;
+@motorway-low-zoom: #696969;
+@trunk-low-zoom: #696969;
+@primary-low-zoom: #696969;
+@secondary-low-zoom: #696969;
+@motorway-low-zoom-casing: #696969;
+@trunk-low-zoom-casing: #696969;
+@primary-low-zoom-casing: #696969;
 @secondary-low-zoom-casing: #3d3d3d;
-@motorway-shield: #3d3d3d;
+@motorway-shield: #696969;
 @trunk-shield: #3d3d3d;
 @primary-shield: #3d3d3d;
 @secondary-shield: #3d3d3d;
@@ -270,9 +270,9 @@ Map {
 @minor-construction: #3d3d3d;
 @service-construction: #3d3d3d;
 
-@destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
+@destination-marking: #696969;
+@private-marking: #696969;
+@private-marking-for-red: #696969;
 
 @tunnel-casing: grey;
 @bridge-casing: black;
@@ -559,8 +559,8 @@ Map {
 
 
 @breakwater-color: #aaa; /* Also for groyne */
-@dam: #1f1f1f;
-@dam-line: #1f1f1f;
+@dam: #696969;
+@dam-line: #696969;
 @weir-line: #1f1f1f;
 @lock-gate: #1f1f1f;
 @lock-gate-line: #1f1f1f;
@@ -569,6 +569,6 @@ Map {
 // water
 
 
-@water-text: #ffffff;
-@glacier: #9db3c8;
-@glacier-line: #9db3c8;
+@water-text: #696969;
+@glacier: #696969;
+@glacier-line: #696969;
