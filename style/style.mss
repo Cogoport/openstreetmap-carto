@@ -2,13 +2,13 @@ Map {
   background-color: @land-color;
 }
 
-@water-color: #161e21;
-@land-color: #363636;
+@water-color: #c8d7d4;
+@land-color: #f2f2f2;
 @water-text: #D3D3D3;
 
 
 @standard-halo-radius: 1;
-@standard-halo-fill: rgba(0, 0, 0, 1);
+@standard-halo-fill: rgba(0,0,0,0.9);
 
 
 
@@ -19,20 +19,20 @@ Map {
 
 // admin boundaries
 
-@admin-boundaries: #808080; // Lch(47,30,327)
-@admin-boundaries-narrow: #808080; // Lch(42,35,327)
-@admin-boundaries-wide: #808080; // Lch(57,25,327)
+@admin-boundaries: #FFFFFF; // Lch(47,30,327)
+@admin-boundaries-narrow: #FFFFFF; // Lch(42,35,327)
+@admin-boundaries-wide: #000000; // Lch(57,25,327)
 
 
 // amenity points
 
 
-@marina-text: #808080; // also swimming_pool
+@marina-text: #000000; // also swimming_pool
 @wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
-@shop-icon: #4aa5fa;
-@shop-text: #4aa5fa;
-@transportation-icon: #0092da;
-@transportation-text: #0066ff;
+@shop-icon: #000000;
+@shop-text: #000000;
+@transportation-icon: #000000;
+@transportation-text: #000000;
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
 @airtransport: #8461C4; //also ferry_terminal
@@ -103,13 +103,13 @@ Map {
 // --- Parks, woods, other green things ---
 // --- Parks, woods, other green things ---
 
-@grass: #090909;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
-@scrub: #090909;        // Lch(84,24,122)
-@forest: #090909;       // Lch(80,30,135)
+@grass: #EDEADE;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@scrub: #EDEADE;        // Lch(84,24,122)
+@forest: #EDEADE;       // Lch(80,30,135)
 @forest-text: #46673b;  // Lch(40,30,135)
-@park: #090909;         // Lch(94,30,145)
-@allotments: #090909;   // Lch(87,20,135)
-@orchard: #090909; // also vineyard, plant_nursery
+@park: #EDEADE;         // Lch(94,30,145)
+@allotments: #EDEADE;   // Lch(87,20,135)
+@orchard: #EDEADE; // also vineyard, plant_nursery
 @hedge: @forest;       // Lch(80,30,135)
 
 
@@ -179,8 +179,8 @@ Map {
 
 // placenames
 
-@placenames: #696969;
-@placenames-light: #696969;
+@placenames: #FAF9F6;
+@placenames-light: #FAF9F6;
 @country-labels: darken(@admin-boundaries-narrow, 10%);
 @state-labels: desaturate(@admin-boundaries-narrow, 5%);
 @county-labels: darken(@admin-boundaries-wide, 5%);
@@ -193,8 +193,8 @@ Map {
 // road change generated
 
 @waterway-text-repeat-distance: 200;
-@motorway-casing: #696969;
-@trunk-casing: #696969;
+@motorway-casing: #FAF9F6;
+@trunk-casing: #FAF9F6;
 @primary-casing: #696969;
 @secondary-casing: #696969;
 @motorway-fill: #444444;
@@ -569,6 +569,6 @@ Map {
 // water
 
 
-@water-text: #696969;
+@water-text: #000000;
 @glacier: #696969;
 @glacier-line: #696969;
