@@ -114,16 +114,16 @@
 
 // placenames
 
-@placenames: #222;
-@placenames-light: #777777;
-@country-labels: darken(@admin-boundaries-narrow, 10%);
+@placenames: #FFFFFF;
+@placenames-light: #FFFFFF;
+@country-labels: desaturate(@admin-boundaries-narrow, 5%);
 @state-labels: desaturate(@admin-boundaries-narrow, 5%);
 @county-labels: darken(@admin-boundaries-wide, 5%);
 
 
 //addressing
 
-@address-color: #666;
+@address-color: #FFFFFF;
 
 
 //admin boundaries

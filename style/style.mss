@@ -3,24 +3,24 @@ Map {
 }
 
 @water-color: #c8d7d4;
-@land-color: #f2f2f2;
-@water-text: #D3D3D3;
+@land-color: #ffffff;
+@water-text: #000000;
 
 
-@standard-halo-radius: 1;
-@standard-halo-fill: rgba(0,0,0,0.9);
+@standard-halo-radius: 0.1;
+@standard-halo-fill: rgba(255,255,255,0.9);
 
 
 
 //  dark matter style
 
-@address-color: #808080;
+@address-color: #000000;
 
 
 // admin boundaries
 
-@admin-boundaries: #FFFFFF; // Lch(47,30,327)
-@admin-boundaries-narrow: #FFFFFF; // Lch(42,35,327)
+@admin-boundaries: #000000; // Lch(47,30,327)
+@admin-boundaries-narrow: #000000; // Lch(42,35,327)
 @admin-boundaries-wide: #000000; // Lch(57,25,327)
 
 
@@ -28,7 +28,7 @@ Map {
 
 
 @marina-text: #000000; // also swimming_pool
-@wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
+@wetland-text: 000000; /* Also for mud */
 @shop-icon: #000000;
 @shop-text: #000000;
 @transportation-icon: #000000;
@@ -103,13 +103,13 @@ Map {
 // --- Parks, woods, other green things ---
 // --- Parks, woods, other green things ---
 
-@grass: #EDEADE;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
-@scrub: #EDEADE;        // Lch(84,24,122)
-@forest: #EDEADE;       // Lch(80,30,135)
-@forest-text: #46673b;  // Lch(40,30,135)
-@park: #EDEADE;         // Lch(94,30,145)
-@allotments: #EDEADE;   // Lch(87,20,135)
-@orchard: #EDEADE; // also vineyard, plant_nursery
+@grass: #ffffff;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@scrub: #ffffff;        // Lch(84,24,122)
+@forest: #ffffff;       // Lch(80,30,135)
+@forest-text: #000000;  // Lch(40,30,135)
+@park: #ffffff;         // Lch(94,30,145)
+@allotments: #ffffff;   // Lch(87,20,135)
+@orchard: #ffffff; // also vineyard, plant_nursery
 @hedge: @forest;       // Lch(80,30,135)
 
 
@@ -176,12 +176,11 @@ Map {
 
 
 
-
 // placenames
 
-@placenames: #FAF9F6;
-@placenames-light: #FAF9F6;
-@country-labels: darken(@admin-boundaries-narrow, 10%);
+@placenames: #000000;
+@placenames-light: #000000;
+@country-labels: #000000;
 @state-labels: desaturate(@admin-boundaries-narrow, 5%);
 @county-labels: darken(@admin-boundaries-wide, 5%);
 
@@ -220,21 +219,21 @@ Map {
 
 /* For the main linear features, such as roads and railways. */
 
-@tertiary-fill: #3d3d3d;
-@residential-fill: #444444;
+@tertiary-fill: #000000;
+@residential-fill: #000000;
 @service-fill: @residential-fill;
-@living-street-fill: #444444;
-@pedestrian-fill: #3d3d3d;
-@raceway-fill: #3d3d3d;
-@road-fill: #00ff5b;
+@living-street-fill: #000000;
+@pedestrian-fill: #000000;
+@raceway-fill: #000000;
+@road-fill: #000000;
 @footway-fill: salmon;
-@footway-fill-noaccess: #444444;
+@footway-fill-noaccess: #000000;
 @steps-fill: @footway-fill;
-@steps-fill-noaccess: #3d3d3d;
+@steps-fill-noaccess: #000000;
 @cycleway-fill: blue;
-@cycleway-fill-noaccess: #3d3d3d;
+@cycleway-fill-noaccess: #000000;
 @bridleway-fill: green;
-@bridleway-fill-noaccess: #3d3d3d;
+@bridleway-fill-noaccess: #000000;
 @track-fill: #444444;
 @track-fill-noaccess: #3d3d3d;
 @platform-fill: #3d3d3d;
@@ -510,7 +509,7 @@ Map {
 
 @mini-roundabout-width:           4;
 
-@junction-text-color:             #960000;
+@junction-text-color:             #000000;
 @halo-color-for-minor-road:       white;
 @lowzoom-halo-color:              white;
 @lowzoom-halo-width:              1;
