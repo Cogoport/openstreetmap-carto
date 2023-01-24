@@ -557,17 +557,17 @@ Map {
 
 
 
-@breakwater-color: #161e21; /* Also for groyne */
-@dam: #161e21;
-@dam-line: #161e21;
-@weir-line: #161e21;
-@lock-gate: #161e21;
-@lock-gate-line: #161e21;
+@breakwater-color: #ffffff; /* Also for groyne */
+@dam: #ffffff;
+@dam-line: #ffffff;
+@weir-line: #ffffff;
+@lock-gate: #ffffff;
+@lock-gate-line: #ffffff;
 
 
 // water
 
 
 @water-text: #000000;
-@glacier: #696969;
-@glacier-line: #696969;
+@glacier: #ffffff;
+@glacier-line: #ffffff;

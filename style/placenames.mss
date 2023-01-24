@@ -36,9 +36,9 @@
       text-wrap-width: 60; // 4.0 em
       text-line-spacing: -0.4; // -0.02 em
     }
-    text-fill: @country-labels;
+    text-fill: #ffffff;
     text-face-name: @book-fonts;
-    text-halo-fill: @standard-halo-fill;
+    text-halo-fill: #ffffff;
     text-halo-radius: @standard-halo-radius * 1.5;
     text-character-spacing: 0.5;
   }

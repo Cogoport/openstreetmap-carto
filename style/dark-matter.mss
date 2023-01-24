@@ -1,13 +1,13 @@
 @water-text: #ffffff;
 @glacier: #ADD8E6;
 @glacier-line: #ADD8E6;
-@breakwater-color: #aaa; /* Also for groyne */
+@breakwater-color: #ffffff; /* Also for groyne */
 @dam: #adadad;
 @dam-line: #444444;
 @weir-line: #aaa;
 @lock-gate: #aaa;
 @lock-gate-line: #aaa;
-@water-color: #c8d7d4;
+@water-color: #ffffff;
 @land-color: #f3f3f3;
 @standard-halo-radius: 1;
 @standard-halo-fill: rgba(255,255,255,0.6);
