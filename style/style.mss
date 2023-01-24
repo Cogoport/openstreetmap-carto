@@ -178,9 +178,9 @@ Map {
 
 // placenames
 
-@placenames: #000000;
-@placenames-light: #000000;
-@country-labels: #000000;
+@placenames: #FAF9F6;
+@placenames-light: #FAF9F6;
+@country-labels: darken(@admin-boundaries-narrow, 10%);
 @state-labels: desaturate(@admin-boundaries-narrow, 5%);
 @county-labels: darken(@admin-boundaries-wide, 5%);
 
