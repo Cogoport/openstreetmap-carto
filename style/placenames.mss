@@ -4,7 +4,7 @@
   [zoom >= 3][zoom < 5][way_pixels > 1000],
   [zoom >= 5][way_pixels < 360000] {
     text-name: "[name]";
-    text-size: 50;
+    text-size: 10;
     text-wrap-width: 35; // 3.5 em
     text-line-spacing: -1.5; // -0.15 em
     text-margin: 7.0; // 0.7 em
