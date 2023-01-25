@@ -63,7 +63,7 @@ sources:
   ne_110m_admin_0_boundary_lines_land:
     type: shp
     url: https://drive.google.com/u/0/uc?id=1WwWKwmQ8jZQJXoCVg_hCerL50sKIvaAr&export=download
-    file: ne_110m_admin_0_boundary_lines_land.shp
+    file: ne_110m_admin_0_boundary_lines_land-line.shp
     ogropts: &ne_opts
       - "--config"
       - "SHAPE_ENCODING"
@@ -75,7 +75,7 @@ sources:
     archive:
       format: zip
       files:
-        - ne_110m_admin_0_boundary_lines_land.dbf
-        - ne_110m_admin_0_boundary_lines_land.prj
-        - ne_110m_admin_0_boundary_lines_land.shp
-        - ne_110m_admin_0_boundary_lines_land.shx
+        - ne_110m_admin_0_boundary_lines_land-line.dbf
+        - ne_110m_admin_0_boundary_lines_land-line.prj
+        - ne_110m_admin_0_boundary_lines_land-line.shp
+        - ne_110m_admin_0_boundary_lines_land-line.shx
