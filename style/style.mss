@@ -7,19 +7,19 @@ Map {
 @water-text: #000000;
 
 
-@standard-halo-radius: 0.1;
+@standard-halo-radius: 1;
 @standard-halo-fill: rgba(255,255,255,0.9);
 
 
 
 //  dark matter style
 
-@address-color: #000000;
+@address-color: #D2D2D2;
 
 
 // admin boundaries
 
-@admin-boundaries: #000000; // Lch(47,30,327)
+@admin-boundaries: #808080; // Lch(47,30,327)
 @admin-boundaries-narrow: #000000; // Lch(42,35,327)
 @admin-boundaries-wide: #000000; // Lch(57,25,327)
 
@@ -29,9 +29,9 @@ Map {
 
 @marina-text: #000000; // also swimming_pool
 @wetland-text: 000000; /* Also for mud */
-@shop-icon: #000000;
+@shop-icon: #eeeeee;
 @shop-text: #000000;
-@transportation-icon: #000000;
+@transportation-icon: #eeeeee;
 @transportation-text: #000000;
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
@@ -39,7 +39,7 @@ Map {
 @health-color: #BF0000;
 @amenity-brown: #734a08;
 @gastronomy-icon: #C77400;
-@gastronomy-text: darken(@gastronomy-icon, 5%);
+@gastronomy-text: lighten(@gastronomy-icon, 5%);
 @memorials: @amenity-brown;
 @culture: @amenity-brown;
 @public-service: @amenity-brown;
@@ -48,10 +48,10 @@ Map {
 @advertising-grey: @man-made-icon;
 @barrier-icon: #3f3f3f;
 @landform-color: #d08f55;
-@leisure-green: darken(@park, 60%);
+@leisure-green: lighten(@park, 60%);
 @protected-area: #666;
 @aboriginal: #82643a;
-@religious-icon: #000000;
+@religious-icon: #eeeeee;
 
 @landcover-font-size: 10;
 @landcover-wrap-width-size: 30; // 3 em
@@ -74,16 +74,16 @@ Map {
 // building
 
 
-@building-fill: #444444;  // Lch(84, 5, 68)
-@building-line: darken(@building-fill, 15%);  // Lch(70, 9, 66)
-@building-low-zoom: darken(@building-fill, 4%);
+@building-fill: #D2D2D2;  // Lch(84, 5, 68)
+@building-line: @building-fill;  // Lch(70, 9, 66)
+@building-low-zoom: @building-fill;
 
-@building-major-fill: darken(@building-fill, 10%);  // Lch(75, 8, 67)
-@building-major-line: darken(@building-major-fill, 15%);  // Lch(61, 13, 65)
-@building-major-z15: darken(@building-major-fill, 5%);  // Lch(70, 9, 66)
-@building-major-z14: darken(@building-major-fill, 10%);  // Lch(66, 11, 65)
+@building-major-fill: @building-fill;  // Lch(75, 8, 67)
+@building-major-line: lighten(@building-major-fill, 15%);  // Lch(61, 13, 65)
+@building-major-z15: lighten(@building-major-fill, 5%);  // Lch(70, 9, 66)
+@building-major-z14: lighten(@building-major-fill, 10%);  // Lch(66, 11, 65)
 
-@entrance-permissive: darken(@building-line, 15%);
+@entrance-permissive: lighten(@building-line, 15%);
 @entrance-normal: @building-line;
 
 
@@ -138,7 +138,7 @@ Map {
 @apron: #ffffff;
 @garages: #ffffff;
 @parking: #ffffff;
-@parking-outline: saturate(darken(@parking, 40%), 20%);
+@parking-outline: saturate(@parking, 20%);
 @railway: @industrial;
 @railway-line: @industrial-line;
 @rest_area: #efc8c8; // also services
@@ -152,10 +152,10 @@ Map {
 @heath: #d6d99f;
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
 @place_of_worship: #d0d0d0; // also landuse_religious
-@place_of_worship_outline: darken(@place_of_worship, 30%);
+@place_of_worship_outline: lighten(@place_of_worship, 30%);
 @leisure: lighten(@park, 5%);
-@power: darken(@industrial, 5%);
-@power-line: darken(@industrial-line, 5%);
+@power: lighten(@industrial, 5%);
+@power-line: lighten(@industrial-line, 5%);
 @sand: #ffffff;
 @societal_amenities: #ffffff;   // Lch(99,13,109)
 @tourism: #ffffff;
@@ -182,7 +182,7 @@ Map {
 @placenames-light: #000000;
 @country-labels: #000000;
 @state-labels: desaturate(@admin-boundaries-narrow, 5%);
-@county-labels: darken(@admin-boundaries-wide, 5%);
+@county-labels: lighten(@admin-boundaries-wide, 5%);
 
 
 // power
@@ -192,26 +192,26 @@ Map {
 // road change generated
 
 @waterway-text-repeat-distance: 200;
-@motorway-casing: #FAF9F6;
-@trunk-casing: #FAF9F6;
-@primary-casing: #696969;
-@secondary-casing: #696969;
-@motorway-fill: #444444;
-@trunk-fill: #444444;
-@primary-fill: #696969;
-@secondary-fill: #696969;
-@motorway-low-zoom: #696969;
-@trunk-low-zoom: #696969;
-@primary-low-zoom: #696969;
-@secondary-low-zoom: #696969;
-@motorway-low-zoom-casing: #696969;
-@trunk-low-zoom-casing: #696969;
-@primary-low-zoom-casing: #696969;
-@secondary-low-zoom-casing: #3d3d3d;
-@motorway-shield: #696969;
-@trunk-shield: #3d3d3d;
-@primary-shield: #3d3d3d;
-@secondary-shield: #3d3d3d;
+@motorway-casing: #D2D2D2;
+@trunk-casing: #D2D2D2;
+@primary-casing: #D2D2D2;
+@secondary-casing: #D2D2D2;
+@motorway-fill: #D2D2D2;
+@trunk-fill: #D2D2D2;
+@primary-fill: #D2D2D2;
+@secondary-fill: #D2D2D2;
+@motorway-low-zoom: #D2D2D2;
+@trunk-low-zoom: #D2D2D2;
+@primary-low-zoom: #D2D2D2;
+@secondary-low-zoom: #D2D2D2;
+@motorway-low-zoom-casing: #D2D2D2;
+@trunk-low-zoom-casing: #D2D2D2;
+@primary-low-zoom-casing: #D2D2D2;
+@secondary-low-zoom-casing: #D2D2D2;
+@motorway-shield: #D2D2D2;
+@trunk-shield: #D2D2D2;
+@primary-shield: #D2D2D2;
+@secondary-shield: #D2D2D2;
 
 
 //  roads
@@ -219,42 +219,42 @@ Map {
 
 /* For the main linear features, such as roads and railways. */
 
-@tertiary-fill: #5A5A5A;
-@residential-fill: #5A5A5A;
+@tertiary-fill: #D2D2D2;
+@residential-fill: #D2D2D2;
 @service-fill: @residential-fill;
-@living-street-fill: #5A5A5A;
-@pedestrian-fill: #5A5A5A;
-@raceway-fill: #5A5A5A;
-@road-fill: #5A5A5A;
+@living-street-fill: #D2D2D2;
+@pedestrian-fill: #D2D2D2;
+@raceway-fill: #D2D2D2;
+@road-fill: #D2D2D2;
 @footway-fill: salmon;
-@footway-fill-noaccess: #5A5A5A;
+@footway-fill-noaccess: #D2D2D2;
 @steps-fill: @footway-fill;
-@steps-fill-noaccess: #5A5A5A;
+@steps-fill-noaccess: #D2D2D2;
 @cycleway-fill: blue;
-@cycleway-fill-noaccess: #5A5A5A;
+@cycleway-fill-noaccess: #D2D2D2;
 @bridleway-fill: green;
-@bridleway-fill-noaccess: #5A5A5A;
-@track-fill: #444444;
-@track-fill-noaccess: #3d3d3d;
-@platform-fill: #3d3d3d;
-@aeroway-fill: #3d3d3d;
+@bridleway-fill-noaccess: #D2D2D2;
+@track-fill: #D2D2D2;
+@track-fill-noaccess: #D2D2D2;
+@platform-fill: #D2D2D2;
+@aeroway-fill: #D2D2D2;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #3d3d3d;
-@access-marking-primary: #3d3d3d;
-@access-marking-secondary: #3d3d3d;
-@access-marking-white-unpaved: #3d3d3d;
-@access-marking-road: #3d3d3d;
-@access-marking-living-street: #3d3d3d;
+@access-marking: #D2D2D2;
+@access-marking-primary: #D2D2D2;
+@access-marking-secondary: #D2D2D2;
+@access-marking-white-unpaved: #D2D2D2;
+@access-marking-road: #D2D2D2;
+@access-marking-living-street: #D2D2D2;
 
 @default-casing: white;
-@tertiary-casing: #3d3d3d;
-@residential-casing: #3d3d3d;
+@tertiary-casing: #D2D2D2;
+@residential-casing: #D2D2D2;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #3d3d3d;
+@pedestrian-casing: #D2D2D2;
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
@@ -262,26 +262,26 @@ Map {
 @bridleway-casing: @default-casing;
 @track-casing: @default-casing;
 
-@tertiary-shield: #3d3d3d;
+@tertiary-shield: #D2D2D2;
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #3d3d3d;
-@service-construction: #3d3d3d;
+@minor-construction: #D2D2D2;
+@service-construction: #D2D2D2;
 
-@destination-marking: #696969;
-@private-marking: #696969;
-@private-marking-for-red: #696969;
+@destination-marking: #D2D2D2;
+@private-marking: #D2D2D2;
+@private-marking-for-red: #D2D2D2;
 
 @tunnel-casing: grey;
-@bridge-casing: black;
+@bridge-casing: grey;
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
 @trunk-tunnel-fill: lighten(@trunk-fill, 10%);
 @primary-tunnel-fill: lighten(@primary-fill, 10%);
 @secondary-tunnel-fill: lighten(@secondary-fill, 5%);
 @tertiary-tunnel-fill: lighten(@tertiary-fill, 5%);
-@residential-tunnel-fill: darken(@residential-fill, 5%);
+@residential-tunnel-fill: lighten(@residential-fill, 5%);
 @living-street-tunnel-fill: lighten(@living-street-fill, 3%);
 
 @motorway-width-z6:               0.4;
@@ -514,20 +514,20 @@ Map {
 @lowzoom-halo-color:              white;
 @lowzoom-halo-width:              1;
 
-@motorway-oneway-arrow-color:     darken(@motorway-casing, 25%);
-@trunk-oneway-arrow-color:        darken(@trunk-casing, 25%);
-@primary-oneway-arrow-color:      darken(@primary-casing, 15%);
-@secondary-oneway-arrow-color:    darken(@secondary-casing, 10%);
-@tertiary-oneway-arrow-color:     darken(@tertiary-casing, 30%);
-@residential-oneway-arrow-color:  darken(@residential-casing, 40%);
-@living-street-oneway-arrow-color: darken(@residential-casing, 30%);
-@pedestrian-oneway-arrow-color:   darken(@pedestrian-casing, 25%);
-@raceway-oneway-arrow-color:      darken(@raceway-fill, 50%);
-@footway-oneway-arrow-color:      darken(@footway-fill, 35%);
-@steps-oneway-arrow-color:        darken(@steps-fill, 35%);
-@cycleway-oneway-arrow-color:     darken(@cycleway-fill, 25%);
-@track-oneway-arrow-color:        darken(@track-fill, 10%);
-@bridleway-oneway-arrow-color:    darken(@bridleway-fill, 15%);
+@motorway-oneway-arrow-color:     lighten(@motorway-casing, 25%);
+@trunk-oneway-arrow-color:        lighten(@trunk-casing, 25%);
+@primary-oneway-arrow-color:      lighten(@primary-casing, 15%);
+@secondary-oneway-arrow-color:    lighten(@secondary-casing, 10%);
+@tertiary-oneway-arrow-color:     lighten(@tertiary-casing, 30%);
+@residential-oneway-arrow-color:  lighten(@residential-casing, 40%);
+@living-street-oneway-arrow-color: lighten(@residential-casing, 30%);
+@pedestrian-oneway-arrow-color:   lighten(@pedestrian-casing, 25%);
+@raceway-oneway-arrow-color:      lighten(@raceway-fill, 50%);
+@footway-oneway-arrow-color:      lighten(@footway-fill, 35%);
+@steps-oneway-arrow-color:        lighten(@steps-fill, 35%);
+@cycleway-oneway-arrow-color:     lighten(@cycleway-fill, 25%);
+@track-oneway-arrow-color:        lighten(@track-fill, 10%);
+@bridleway-oneway-arrow-color:    lighten(@bridleway-fill, 15%);
 
 // Shield’s line wrap is based on OpenStreetMap data and not on line-wrap-width,
 // but lines are typically rather short, so we use narrow line spacing.
@@ -551,7 +551,7 @@ Map {
 //stations
 
 @station-color: #7981b0;
-@station-text: darken(saturate(@station-color, 15%), 10%);
+@station-text: lighten(saturate(@station-color, 15%), 10%);
 
 //water featurers
 

@@ -14,7 +14,7 @@
     polygon-fill: @water-color;
     [zoom >= 17] {
       line-width: 0.5;
-      line-color: saturate(darken(@water-color, 20%), 20%);
+      line-color: saturate(lighten(@water-color, 20%), 20%);
     }
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
     [way_pixels >= 64] { polygon-gamma: 0.3;  }
@@ -25,7 +25,7 @@
   [feature = 'leisure_fitness_station'][zoom >= 13] {
     polygon-fill: @leisure;
     [zoom >= 15] {
-      line-color: darken(@leisure, 60%);
+      line-color: lighten(@leisure, 60%);
       line-width: 0.3;
     }
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
@@ -38,7 +38,7 @@
     [zoom >= 10] {
       polygon-fill: @campsite;
       [zoom >= 13] {
-        line-color: saturate(darken(@campsite, 60%), 30%);
+        line-color: saturate(lighten(@campsite, 60%), 30%);
         line-width: 0.3;
       }
       [way_pixels >= 4]  { polygon-gamma: 0.75; }
@@ -51,7 +51,7 @@
     polygon-pattern-file: url('symbols/quarry.svg');
     [zoom >= 13] {
       line-width: 0.5;
-      line-color: darken(@quarry, 10%);
+      line-color: lighten(@quarry, 10%);
     }
     [way_pixels >= 4]  { polygon-pattern-gamma: 0.75; }
     [way_pixels >= 64] { polygon-pattern-gamma: 0.3;  }
@@ -190,7 +190,7 @@
     [zoom >= 10] {
       polygon-fill: @glacier;
       line-width: 0.5;
-      line-color: saturate(darken(@pitch, 30%), 20%);
+      line-color: saturate(lighten(@pitch, 30%), 20%);
       [way_pixels >= 4]  { polygon-gamma: 0.75; }
       [way_pixels >= 64] { polygon-gamma: 0.3;  }
     }
@@ -231,7 +231,7 @@
     }
     [zoom >= 16] {
       line-width: 0.5;
-      line-color: desaturate(darken(@allotments, 10%), 10%);
+      line-color: desaturate(lighten(@allotments, 10%), 10%);
       [name != null] {
         line-width: 0.7;
       }
@@ -525,7 +525,7 @@
     [zoom >= 13] {
       polygon-fill: @societal_amenities;
       line-width: 0.3;
-      line-color: darken(@societal_amenities, 35%);
+      line-color: lighten(@societal_amenities, 35%);
     }
   }
 
@@ -575,7 +575,7 @@
   [feature = 'amenity_bus_station'][zoom >= 15] {
     polygon-fill: @transportation-area;
     line-width: 0.2;
-    line-color: saturate(darken(@transportation-area, 40%), 20%);
+    line-color: saturate(lighten(@transportation-area, 40%), 20%);
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
     [way_pixels >= 64] { polygon-gamma: 0.3;  }
   }
@@ -609,7 +609,7 @@
       [way_pixels >= 64] { polygon-gamma: 0.3;  }
       [zoom >= 13] {
         line-width: 0.3;
-        line-color: darken(@stadium, 35%);
+        line-color: lighten(@stadium, 35%);
       }
     }
   }
@@ -618,7 +618,7 @@
     polygon-fill: @track;
     [zoom >= 15] {
       line-width: 0.5;
-      line-color: desaturate(darken(@track, 20%), 10%);
+      line-color: desaturate(lighten(@track, 20%), 10%);
     }
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
     [way_pixels >= 64] { polygon-gamma: 0.3;  }
@@ -628,7 +628,7 @@
     polygon-fill: @pitch;
     [zoom >= 15] {
       line-width: 0.5;
-      line-color: desaturate(darken(@pitch, 20%), 10%);
+      line-color: desaturate(lighten(@pitch, 20%), 10%);
     }
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
     [way_pixels >= 64] { polygon-gamma: 0.3;  }
