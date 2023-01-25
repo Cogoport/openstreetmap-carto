@@ -119,25 +119,25 @@ Map {
 
 @built-up-lowzoom: #C0C0C0;
 @built-up-z12: #C0C0C0;
-@residential: #696969;      // Lch(89,0,0)
-@residential-line: #696969; // Lch(75,0,0)
-@retail: #696969;           // Lch(89,16,30)
-@retail-line: #696969;      // Lch(70,25,30)
-@commercial: #696969;       // Lch(89,8.5,25)
-@commercial-line: #696969;  // Lch(75,12,25)
-@industrial: #696969;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
-@industrial-line: #696969;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
-@farmland: #696969;         // Lch(94,14,112)
-@farmland-line: #696969;    // Lch(80,14,112)
-@farmyard: #696969;         // Lch(89,20,80)
-@farmyard-line: #696969;    // Lch(75,25,80)
+@residential: #ffffff;      // Lch(89,0,0)
+@residential-line: #ffffff; // Lch(75,0,0)
+@retail: #ffffff;           // Lch(89,16,30)
+@retail-line: #ffffff;      // Lch(70,25,30)
+@commercial: #ffffff;       // Lch(89,8.5,25)
+@commercial-line: #ffffff;  // Lch(75,12,25)
+@industrial: #ffffff;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
+@industrial-line: #ffffff;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
+@farmland: #ffffff;         // Lch(94,14,112)
+@farmland-line: #ffffff;    // Lch(80,14,112)
+@farmyard: #ffffff;         // Lch(89,20,80)
+@farmyard-line: #ffffff;    // Lch(75,25,80)
 
 // --- Transport ----
 
-@transportation-area: #696969;
-@apron: #696969;
-@garages: #696969;
-@parking: #696969;
+@transportation-area: #ffffff;
+@apron: #ffffff;
+@garages: #ffffff;
+@parking: #ffffff;
 @parking-outline: saturate(darken(@parking, 40%), 20%);
 @railway: @industrial;
 @railway-line: @industrial-line;
@@ -145,9 +145,9 @@ Map {
 
 // --- Other ----
 
-@bare_ground: #696969;
-@campsite: #696969; // also caravan_site, picnic_site
-@cemetery: #696969; // also grave_yard
+@bare_ground: #ffffff;
+@campsite: #ffffff; // also caravan_site, picnic_site
+@cemetery: #ffffff; // also grave_yard
 @construction: #c7c7b4; // also brownfield
 @heath: #d6d99f;
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
@@ -156,12 +156,12 @@ Map {
 @leisure: lighten(@park, 5%);
 @power: darken(@industrial, 5%);
 @power-line: darken(@industrial-line, 5%);
-@sand: #696969;
-@societal_amenities: #696969;   // Lch(99,13,109)
-@tourism: #696969;
-@quarry: #696969;
+@sand: #ffffff;
+@societal_amenities: #ffffff;   // Lch(99,13,109)
+@tourism: #ffffff;
+@quarry: #ffffff;
 @military: #f55;
-@beach: #696969;
+@beach: #ffffff;
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
 @water_works: @industrial;
@@ -169,7 +169,7 @@ Map {
 
 // --- Sports ---
 
-@pitch: #696969;           // Lch(85,22,168) also track
+@pitch: #ffffff;           // Lch(85,22,168) also track
 @track: @pitch;
 @stadium: @leisure; // also sports_centre
 @golf_course: @campsite;
@@ -178,15 +178,15 @@ Map {
 
 // placenames
 
-@placenames: #FAF9F6;
-@placenames-light: #FAF9F6;
-@country-labels: darken(@admin-boundaries-narrow, 10%);
+@placenames: #000000;
+@placenames-light: #000000;
+@country-labels: #000000;
 @state-labels: desaturate(@admin-boundaries-narrow, 5%);
 @county-labels: darken(@admin-boundaries-wide, 5%);
 
 
 // power
-@power-line-color: #696969;
+@power-line-color: #ffffff;
 
 
 // road change generated
@@ -219,21 +219,21 @@ Map {
 
 /* For the main linear features, such as roads and railways. */
 
-@tertiary-fill: #000000;
-@residential-fill: #000000;
+@tertiary-fill: #5A5A5A;
+@residential-fill: #5A5A5A;
 @service-fill: @residential-fill;
-@living-street-fill: #000000;
-@pedestrian-fill: #000000;
-@raceway-fill: #000000;
-@road-fill: #000000;
+@living-street-fill: #5A5A5A;
+@pedestrian-fill: #5A5A5A;
+@raceway-fill: #5A5A5A;
+@road-fill: #5A5A5A;
 @footway-fill: salmon;
-@footway-fill-noaccess: #000000;
+@footway-fill-noaccess: #5A5A5A;
 @steps-fill: @footway-fill;
-@steps-fill-noaccess: #000000;
+@steps-fill-noaccess: #5A5A5A;
 @cycleway-fill: blue;
-@cycleway-fill-noaccess: #000000;
+@cycleway-fill-noaccess: #5A5A5A;
 @bridleway-fill: green;
-@bridleway-fill-noaccess: #000000;
+@bridleway-fill-noaccess: #5A5A5A;
 @track-fill: #444444;
 @track-fill-noaccess: #3d3d3d;
 @platform-fill: #3d3d3d;
