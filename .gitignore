@@ -11,6 +11,7 @@ localconfig.js
 .kosmtik-config.yml
 .env
 .DS_Store
+mapnik.xml
 
 # Generated at runtime by Python.
 *.pyc
