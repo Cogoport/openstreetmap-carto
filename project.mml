@@ -14,6 +14,10 @@ _parts:
     srs: *srs
   osm2pgsql: &osm2pgsql
     type: "postgis"
+    host: "maps.dev.cogoport.io"
+    port: "5432"
+    password: "sYvhjJ!qskIqLDk"
+    user: "postgres"
     dbname: "locations"
     key_field: ""
     geometry_field: "way"
