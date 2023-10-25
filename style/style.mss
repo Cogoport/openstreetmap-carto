@@ -2,7 +2,7 @@ Map {
   background-color: @land-color;
 }
 
-@water-color: #c8d7d4;
+@water-color: #D6D9DE;
 @land-color: #ffffff;
 @water-text: #000000;
 
@@ -39,7 +39,7 @@ Map {
 @health-color: #BF0000;
 @amenity-brown: #734a08;
 @gastronomy-icon: #C77400;
-@gastronomy-text: lighten(@gastronomy-icon, 5%);
+@gastronomy-text: #000000;
 @memorials: @amenity-brown;
 @culture: @amenity-brown;
 @public-service: @amenity-brown;
@@ -90,7 +90,7 @@ Map {
 // ferry routes
 
 @ferry-route: #4aa5fa;
-@ferry-route-text: @ferry-route;
+@ferry-route-text: #000000;
 
 
 // golf colors
@@ -551,7 +551,7 @@ Map {
 //stations
 
 @station-color: #7981b0;
-@station-text: lighten(saturate(@station-color, 15%), 10%);
+@station-text: #000000;
 
 //water featurers
 
